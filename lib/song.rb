@@ -1,7 +1,7 @@
 require 'pry'
 
 class Song
-  extend Module::ClassMethods
+  extend Memorable::ClassMethods
   attr_accessor :name
   attr_reader :artist
   @@songs = []
