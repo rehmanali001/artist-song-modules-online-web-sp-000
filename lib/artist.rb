@@ -1,7 +1,7 @@
 require 'pry'
 
 class Artist
-  extend Module:ClassMethods
+  extend Module::ClassMethods
   attr_accessor :name
   attr_reader :songs
   @@artists = []
