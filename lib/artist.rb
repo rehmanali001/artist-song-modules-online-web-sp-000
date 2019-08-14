@@ -1,9 +1,9 @@
 require 'pry'
 
 class Artist
+  extend Module:ClassMEthods
   attr_accessor :name
   attr_reader :songs
-  extend Module
   @@artists = []
 
   def initialize
